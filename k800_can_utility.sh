@@ -97,7 +97,7 @@ cntrl_all_leds() {
     printf "\r\n"> $emcu_input
 }
 
-# cleanup function to close buffer and shot can down
+# cleanup function to close buffer and shut can down
 cleanup() {
     echo -e "\nCleaning up..."
     echo $ADMIN_PASSWORD | timeout .5 cat $emcu_input >/dev/null
