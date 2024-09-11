@@ -30,7 +30,7 @@
 #         2. type in 'reset' into the terminal
 #         3. wait 10 seconds
 #     And try again.
-#     Notte There may also be issues turning off all the onboard leds after LED check,
+#     There may also be issues turning off all the onboard leds after LED check,
 #     A reset would help that as well, fundementally, the python version of this
 #     script is more stable because it has better access to low level system components
 
